@@ -43,8 +43,9 @@ export default function App() {
         )}
       </main>
       <footer className="footer">
+        <p className="footer-disclaimer">Not affiliated with or endorsed by EA Sports or FIFA.</p>
         <p>Song data from FIFA 08–23 soundtracks. Rankings powered by ELO.</p>
-        <p>Built with ♥ in Sydney &mdash; <a href="mailto:lmjmspotter@gmail.com" className="footer-link">lmjmspotter@gmail.com</a></p>
+        <p>Built with ♥ in Sydney &mdash; <a href="https://github.com/liamxxpotter/FUTorNOT" target="_blank" rel="noopener noreferrer" className="footer-link">github.com/liamxxpotter/FUTorNOT</a></p>
       </footer>
     </div>
   )
