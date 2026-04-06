@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Read(//usr/local/bin/**)",
+      "Bash(/opt/homebrew/bin/node --version)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(npm --version)",
+      "Bash(pkill -f \"vite --port 3000\")",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
