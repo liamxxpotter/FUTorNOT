@@ -4,6 +4,7 @@ const TABS = [
   { id: 'vote',        label: '⚽ Vote' },
   { id: 'leaderboard', label: '🏆 Leaderboard' },
   { id: 'profile',     label: '🎧 My Taste' },
+  { id: 'about',       label: 'ℹ️ About' },
 ]
 
 export default function NavBar({ view, onSwitch }) {
@@ -16,11 +17,12 @@ export default function NavBar({ view, onSwitch }) {
 
   return (
     <nav className="navbar">
-      <div className="navbar-brand">
+      {/* Logo — always navigates home to vote */}
+      <button className="navbar-brand-btn" onClick={() => navigate('vote')} aria-label="Go to home">
         <span className="brand-fut">FUT</span>
         <span className="brand-or">or</span>
         <span className="brand-not">NOT</span>
-      </div>
+      </button>
 
       {/* Desktop: inline tab buttons */}
       <div className="navbar-tabs">

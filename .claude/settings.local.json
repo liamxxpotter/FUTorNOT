@@ -7,7 +7,11 @@
       "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
       "Bash(npm --version)",
       "Bash(pkill -f \"vite --port 3000\")",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin npm run build)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }

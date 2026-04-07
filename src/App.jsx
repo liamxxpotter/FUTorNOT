@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import VoteArena from './components/VoteArena'
 import Leaderboard from './components/Leaderboard'
 import MyTaste from './components/MyTaste'
+import About from './components/About'
 import { isConfigured } from './supabaseClient'
 
 function SetupBanner() {
@@ -38,6 +39,8 @@ export default function App() {
           <VoteArena />
         ) : view === 'leaderboard' ? (
           <Leaderboard />
+        ) : view === 'about' ? (
+          <About />
         ) : (
           <MyTaste />
         )}
